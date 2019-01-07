@@ -101,7 +101,19 @@ a:active {
 #home-heading {
   position: relative;
   min-height: 200px;
-  background: url('../img/image2.jpg');
+  background: url('../img/lights.jpg');
+  background-attachment: fixed;
+  background-position:center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+}
+
+#home-heading-2 {
+  position: relative;
+  min-height: 200px;
+  background: url('../img/home2.jpg');
   background-attachment: fixed;
   background-position:center;
   background-size:cover;
@@ -471,3 +483,7 @@ a:active {
   font-size: 0.8em;
 }
 
+.poster{
+  margin-top:-380px;
+  transform: scale(0.4);
+}

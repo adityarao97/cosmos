@@ -1,28 +1,42 @@
-
+<%if(val==="main"){%>
+<%    var check1="active";%>
+<% }%>
+<%if(val==="about"){%>
+<%    var check2="active";%>
+<% }%>
+<% if(val==="gallery"){%>
+<%    var check3="active";%>
+<% } %>
+<% if(val==="events"){%>
+<%    var check3="active";%>
+<% } %>
+<% if(val==="Contact"){%>
+<%    var check3="active";%>
+<% } %>
 
 <nav class="navbar navbar-inner navbar-expand-sm navbar-dark mt-auto">
         <div class="container">
-            <a href="index.html" class="navbar-brand">COSMOS</a>
+            <a href="/" class="navbar-brand">COSMOS</a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-              <a href="index.html" class="nav-link">Home</a>
-            </li>
-            <li class="nav-item">
-                <a href="about.html" class="nav-link">About Us</a>
-            </li>
-            <li class="nav-item">
-            <a href="gallery.html" class="nav-link">Gallery</a>
-        </li>
-        <li class="nav-item">
-            <a href="#" class="nav-link">Services</a>
-        </li>
-        <li class="nav-item">
-            <a href="#" class="nav-link">Contact</a>
-        </li>
+                        <li class="nav-item <%= check1 %>">
+                            <a href="/" class="nav-link">Home</a>
+                          </li>
+                          <li class="nav-item">
+                              <a href="/about" class="nav-link">About Us</a>
+                          </li>
+                          <li class="nav-item <%= check3 %>">
+                          <a href="/gallery" class="nav-link">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/event" class="nav-link">Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/contact" class="nav-link">Contact</a>
+                        </li>
     </ul>
       </div>
     </div>

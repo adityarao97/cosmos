@@ -5,9 +5,16 @@ app.use(bodyParser.urlencoded({extended:true}));
 app.set("view engine","ejs");
 app.use(express.static(__dirname + '/public'));
 
+var val;
 app.get("/",function(req,res){
-    res.render("main");
-})
+    val="main";  
+    res.render("main",{val: val});
+});
+
+app.get("/gallery",function(req,res){
+    val="gallery";
+    res.render("gallery",{val: val});
+});
 
 app.listen(3000,function(){
     console.log("cosmos is running on port no 3000");

@@ -1,2 +1,2 @@
-# Netraniadventures
-Website for NetraniAdventures
+COSMOS
+Website for COSMOS

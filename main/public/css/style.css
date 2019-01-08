@@ -134,6 +134,18 @@ a:active {
   color: #fff;
 }
 
+#home-heading-events {
+  position: relative;
+  min-height: 200px;
+  background: url('../img/events.jpg');
+  background-attachment: fixed;
+  background-position:center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+}
+
 #home-icons {
   background: #1e272e;
    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -156,6 +168,14 @@ a:active {
   opacity: 1;
   transform: scale(1.1);
 }
+.opacity2 {
+  opacity:0.5;
+  transition: all 0.4s ease;
+}
+.opacity2:hover{
+  opacity: 1;
+}
+
 #video-play {
   position: relative;
   min-height: 200px;
@@ -187,6 +207,19 @@ a:active {
 #page-header-gallery {
   height: 200px;
   background: url('../img/gallery.jpg');
+  /* background-position: 0 -360px; */
+  /* background-attachment: fixed; */
+  /* background-position: center; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  border-bottom: 1px #eee solid;
+  padding-top: 00px;
+}
+
+#page-header-events {
+  height: 200px;
+  background: url('../img/events.jpg');
   /* background-position: 0 -360px; */
   /* background-attachment: fixed; */
   /* background-position: center; */

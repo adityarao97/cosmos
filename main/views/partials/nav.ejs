@@ -8,10 +8,10 @@
 <%    var check3="active";%>
 <% } %>
 <% if(val==="events"){%>
-<%    var check3="active";%>
+<%    var check4="active";%>
 <% } %>
 <% if(val==="Contact"){%>
-<%    var check3="active";%>
+<%    var check5="active";%>
 <% } %>
 
 <nav class="navbar navbar-inner navbar-expand-sm navbar-dark mt-auto">
@@ -25,16 +25,16 @@
                         <li class="nav-item <%= check1 %>">
                             <a href="/" class="nav-link">Home</a>
                           </li>
-                          <li class="nav-item">
+                          <li class="nav-item <%= check2 %>">
                               <a href="/about" class="nav-link">About Us</a>
                           </li>
                           <li class="nav-item <%= check3 %>">
                           <a href="/gallery" class="nav-link">Gallery</a>
                         </li>
-                        <li class="nav-item">
-                            <a href="/event" class="nav-link">Events</a>
+                        <li class="nav-item <%= check4 %>">
+                            <a href="/events" class="nav-link">Events</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item <%= check5 %>">
                             <a href="/contact" class="nav-link">Contact</a>
                         </li>
     </ul>

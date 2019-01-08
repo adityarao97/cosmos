@@ -113,7 +113,7 @@ a:active {
 #home-heading-2 {
   position: relative;
   min-height: 200px;
-  background: url('../img/home2.jpg');
+  background: url('../img/home2.png');
   background-attachment: fixed;
   background-position:center;
   background-size:cover;
@@ -525,4 +525,32 @@ a:active {
 .poster{
   margin-top:-380px;
   transform: scale(0.4);
+}
+
+.cont {
+  position: relative;
+  height: 100%;
+  width:100%;
+}
+
+.overlay {
+  opacity: 1;
+  transition:all 0.5s;
+}
+
+.cont:hover .overlay{
+  opacity: 0.2;
+}
+
+.imghover {
+  position: relative;
+  visibility: hidden;
+  top:-200px;
+  transition:all 0.5s;
+}
+
+.cont:hover .imghover{
+  position: relative;
+  visibility: visible;
+  top:-200px;
 }

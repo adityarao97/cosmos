@@ -1,2 +1,0 @@
-# Netraniadventures
-Website for NetraniAdventures

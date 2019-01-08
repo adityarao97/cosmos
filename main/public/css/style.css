@@ -136,8 +136,7 @@ a:active {
 
 #home-heading-events {
   position: relative;
-  min-height: 200px;
-  background: url('../img/events.jpg');
+  background: url('../img/event1.jpg');
   background-attachment: fixed;
   background-position:center;
   background-size:cover;
@@ -219,7 +218,7 @@ a:active {
 
 #page-header-events {
   height: 200px;
-  background: url('../img/events.jpg');
+  background: url('../img/event2.jpg');
   /* background-position: 0 -360px; */
   /* background-attachment: fixed; */
   /* background-position: center; */
@@ -546,11 +545,19 @@ a:active {
   position: relative;
   visibility: hidden;
   top:-200px;
-  transition:all 0.5s;
+  transition:all 0.4s;
 }
 
 .cont:hover .imghover{
   position: relative;
   visibility: visible;
   top:-200px;
+}
+
+.eventbg{
+  position:relative;
+  top:-200px;
+  height:100%;
+  width:100%;
+  transform: scale(0.7);
 }

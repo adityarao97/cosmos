@@ -1,7 +1,7 @@
 <%if(val==="main"){%>
 <%    var check1="active";%>
 <% }%>
-<%if(val==="about"){%>
+<%if(val==="team"){%>
 <%    var check2="active";%>
 <% }%>
 <% if(val==="gallery"){%>
@@ -10,9 +10,7 @@
 <% if(val==="events"){%>
 <%    var check4="active";%>
 <% } %>
-<% if(val==="Contact"){%>
-<%    var check5="active";%>
-<% } %>
+
 
 <nav class="navbar navbar-inner navbar-expand-sm navbar-dark mt-auto">
         <div class="container">
@@ -26,16 +24,13 @@
                             <a href="/" class="nav-link">Home</a>
                           </li>
                           <li class="nav-item <%= check2 %>">
-                              <a href="/about" class="nav-link">About Us</a>
+                              <a href="/team" class="nav-link">Team</a>
                           </li>
                           <li class="nav-item <%= check3 %>">
                           <a href="/gallery" class="nav-link">Gallery</a>
                         </li>
                         <li class="nav-item <%= check4 %>">
                             <a href="/events" class="nav-link">Events</a>
-                        </li>
-                        <li class="nav-item <%= check5 %>">
-                            <a href="/contact" class="nav-link">Contact</a>
                         </li>
     </ul>
       </div>

@@ -1,9 +1,18 @@
+.html {
+  overflow:auto;
+}
+
 .body {
   background: white;
   bottom: 0;
   padding: 15px;
   position: absolute;
   width: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* make scrollbar transparent */
 }
 
 .nolink {
@@ -100,7 +109,7 @@ a:active {
 
 #home-heading {
   position: relative;
-  min-height: 200px;
+  height: 100vh;
   background: url('../img/lights.jpg');
   background-attachment: fixed;
   background-position:center;
@@ -125,7 +134,7 @@ a:active {
 #home-heading-gallery {
   position: relative;
   min-height: 200px;
-  background: url('../img/galbg.png');
+  background: url('../img/gal2.jpg');
   background-attachment: fixed;
   background-position:center;
   background-size:cover;
@@ -151,6 +160,7 @@ a:active {
     }
 
 .dark-overlay {
+  overflow: auto;
   position: absolute;
   top: 0;
   left: 0;
@@ -194,9 +204,9 @@ a:active {
 #page-header {
   height: 200px;
   background: url('../img/head1.jpg');
-  /* background-position: 0 -360px; */
+  background-position: 0 -360px;
   /* background-attachment: fixed; */
-  /* background-position: center; */
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
@@ -206,9 +216,9 @@ a:active {
 #page-header-gallery {
   height: 200px;
   background: url('../img/gallery.jpg');
-  /* background-position: 0 -360px; */
+  background-position: 0 -360px;
   /* background-attachment: fixed; */
-  /* background-position: center; */
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
@@ -219,9 +229,9 @@ a:active {
 #page-header-events {
   height: 200px;
   background: url('../img/event2.jpg');
-  /* background-position: 0 -360px; */
+  background-position: 0 -360px;
   /* background-attachment: fixed; */
-  /* background-position: center; */
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
@@ -232,9 +242,9 @@ a:active {
 #page-header-about {
   height: 200px;
   background: url('https://images.pexels.com/photos/943630/pexels-photo-943630.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
-  /* background-position: 0 -360px; */
+  background-position: 0 -360px;
   /* background-attachment: fixed; */
-  /* background-position: center; */
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;

@@ -21,6 +21,12 @@ app.get("/events",function(req,res){
     res.render("events",{val: val});
 });
 
+// let port = process.env.PORT;
+// if (port == null || port == "") {
+//   port = 8000;
+// }
+// app.listen(port);
+
 app.listen(3000,function(){
     console.log("cosmos is running on port no 3000");
 });

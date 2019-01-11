@@ -11,6 +11,11 @@ app.get("/",function(req,res){
     res.render("main",{val: val});
 });
 
+app.get("/team",function(req,res){
+    val="team";
+    res.render("team",{val: val});
+});
+
 app.get("/gallery",function(req,res){
     val="gallery";
     res.render("gallery",{val: val});

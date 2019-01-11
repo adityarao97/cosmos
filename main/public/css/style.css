@@ -109,7 +109,8 @@ a:active {
 
 #home-heading {
   position: relative;
-  height: 100vh;
+  height: 100%;
+  width: 100%;
   background: url('../img/lights.jpg');
   background-attachment: fixed;
   background-position:center;
@@ -152,6 +153,57 @@ a:active {
   background-repeat: no-repeat;
   text-align: center;
   color: #fff;
+}
+
+#page-header {
+  height: 100vh;
+  background: url('../img/head1.jpg');
+  background-position: 0 -360px;
+  /* background-attachment: fixed; */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  border-bottom: 1px #eee solid;
+}
+
+#page-header-gallery {
+  height: 100vh;
+  background: url('../img/gallery.jpg');
+  background-position: 0 -360px;
+  /* background-attachment: fixed; */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  border-bottom: 1px #eee solid;
+  padding-top: 00px;
+}
+
+#page-header-events {
+  height: 100vh;
+  background: url('../img/event2.jpg');
+  background-position: 0 -360px;
+  /* background-attachment: fixed; */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  border-bottom: 1px #eee solid;
+  padding-top: 00px;
+}
+
+#page-header-team {
+  height: 100vh;
+  background: url('../img/teamhead.jpeg');
+  background-position: 0 -360px;
+  /* background-attachment: fixed; */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  border-bottom: 1px #eee solid;
+  padding-top: 00px;
 }
 
 #home-icons {
@@ -201,62 +253,17 @@ a:active {
   color: #fff;
 }
 
-#page-header {
-  height: 200px;
-  background: url('../img/head1.jpg');
-  background-position: 0 -360px;
-  /* background-attachment: fixed; */
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  border-bottom: 1px #eee solid;
-}
-
-#page-header-gallery {
-  height: 200px;
-  background: url('../img/gallery.jpg');
-  background-position: 0 -360px;
-  /* background-attachment: fixed; */
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  border-bottom: 1px #eee solid;
-  padding-top: 00px;
-}
-
-#page-header-events {
-  height: 200px;
-  background: url('../img/event2.jpg');
-  background-position: 0 -360px;
-  /* background-attachment: fixed; */
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  border-bottom: 1px #eee solid;
-  padding-top: 00px;
-}
-
-#page-header-about {
-  height: 200px;
-  background: url('https://images.pexels.com/photos/943630/pexels-photo-943630.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
-  background-position: 0 -360px;
-  /* background-attachment: fixed; */
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  border-bottom: 1px #eee solid;
-  padding-top: 00px;
+#about {
+  position: relative;
+  height: 100%;
+  width: 100%;
 }
 
 .about-img {
   border:2px solid #353b48;
   border-style: ridge;
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   margin-top: 10px;
 }
 
@@ -280,6 +287,7 @@ a:active {
 }
 
 .header-text {
+  width: max-content;
   font-family: 'Roboto', sans-serif;
   font-size:3rem;
   letter-spacing: 1.0rem;
@@ -305,7 +313,7 @@ a:active {
 
 .header-hr {
   float: left;
-  min-width: 300px;
+  width: 100%;
   height: 1px;
   margin-top: 0;
   margin-bottom: 0;
